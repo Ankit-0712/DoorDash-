@@ -1,0 +1,112 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F93822;
+  color: white;
+  background-image: url('https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.header button {
+  background-color: white;
+  color: #F93822;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.logo {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.headline {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: inline-block;
+  position: relative;
+}
+
+.input-container input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.input-container .search-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #E40000;
+  border: none;
+  padding: 0 20px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sign-in {
+  margin-top: 10px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3f4f6;
+  color: #333;
+  padding: 50px 20px;
+}
+
+.footer-item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.footer-item img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.footer-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer-item p {
+  margin-bottom: 20px;
+}
+
+.footer-item a {
+  color: #F93822;
+  text-decoration: none;
+  font-weight: bold;
+}
